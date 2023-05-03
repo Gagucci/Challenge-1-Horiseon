@@ -1,2 +1,1 @@
-# Challenge-1-Horiseon
-Search Engine Optimization 
+Horiseon Social Solutions
