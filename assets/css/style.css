@@ -3,11 +3,12 @@
     padding: 0;
     margin: 0;
 }
-
+/*sets background of body to white*/
 body {
     background-color: #d9dcd6;
 }
 
+/*sets background to blue and text color to white, specifies font family for browser*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,18 @@ body {
     color: #ffffff;
 }
 
+/*makes the "hori___n" & "seo" text display correctly as one word, sets font size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*sets "seo" text color to a gray*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Sets font group for nav bar links, margins the text to the right and vertically centers the text in the header*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,21 +36,25 @@ body {
     font-size: 20px;
 }
 
+/*puts link on the left side of header, makes them display side by side and removes the bullet points*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
 }
 
+/*sets link text color to white & removes the underline*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*sets text in p element font size to 16px*/
 p {
     font-size: 16px;
 }
 
+/*displays the background image, sets it to cover the width of the screen, and centers it*/
 #hero {
     height: 800px;
     width: 100%;
@@ -56,6 +64,7 @@ p {
     background-position: center;
 }
 
+/*places image on the left/ right side of the card and adds spacing around it, sets max size for image*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,12 +77,14 @@ p {
     max-height: 200px;
 }
 
+/*sets perimeter for content area & places it on the left of the page*/
 #content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*sets perimeter for benefits sidebar, sets font family for benefits text, makes benefits area blue, and places benefits area on the right of the page*/
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,22 +96,25 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-card {
+/*adds spacing between each benefit item & sets p element text color to white*/
+.benefit-item {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-card h3 {
+/*adds spacing between each benefit title and centers the text relevant to the benefits sidebar*/
+.benefit-item h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-card img {
+/*makes image display take up whole width of benefits sidebar, adds spacing around each image, and sets max width for each*/
+.benefit-item img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*sets font family for text within content cards, size for each content card, card background color to blue, and text color to white*/
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -127,12 +141,13 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*adds spacing between each card and sets font size for text within the cards*/
 .card-titles {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*sets spacing around footer text, places footer under content and benfits, sets font family, and aligns footer text to center of page*/
 #footer {
     padding: 30px;
     clear: both;
@@ -140,6 +155,7 @@ p {
     text-align: center;
 }
 
+/*sets footer h2 text to 20px*/
 #footer h2 {
     font-size: 20px;
 }
